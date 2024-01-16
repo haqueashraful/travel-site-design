@@ -55,57 +55,22 @@
   }
 
 
-  .right-side ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 44px;
-  }
 
-  .right-side ul li {
-      list-style: none;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 400;
-  }
-
-  .right-side a {
+  .nav-item a {
+    margin: 0 22px;
       text-decoration: none;
       color: #424247;
   }
 
   /* hamburger item for responsive */
   /* .hamburg, */
-  .menu,
-  .close {
+  .menu {
       display: none;
       cursor: pointer;
       padding: 20px;
       font-size: 30px;
   }
 
-  .hamburg .nav-item {
-      display: none;
-  }
-
-  .hamburg ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-  }
-
-  .hamburg ul li {
-      list-style: none;
-      text-align: left;
-      font-size: 18px;
-      font-weight: 400;
-  }
-
-  .hamburg a {
-      text-decoration: none;
-      color: #424247;
-  }
 
   /* banner section style */
 

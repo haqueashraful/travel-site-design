@@ -26,13 +26,16 @@
         font-size: 20px;
     }
 
-    .right-side {
+   
+    .nav-item a {
         display: none;
     }
 
     .menu {
         display: block;
+        padding: 8px;
     }
+
     /* bannner responsive */
     .banner {
         background-size: auto;
@@ -96,11 +99,17 @@
         margin: 20px 0;
     }
     .img-container{
-       display: block;
+       grid-template-areas: "md"
+                            "indi"
+                            "sri"
+                            "na"
+                            "ksmir"
+                            "bang"
+                            "band";
+                            gap: 16px;
     }
     .img-container img{
         height: 175px;
-        margin-bottom: 16px;
     }
 
     /* why us */
