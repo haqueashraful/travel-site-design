@@ -208,8 +208,25 @@
     .save h2{
         font-size: 20px;
     }
+    /* map section responsive */
 
-
+    .map-section{
+        padding: 15px;
+        margin: 10px 0;
+    }
+    .map-section h2{
+        font-size: 40px;
+    }
+    .map-section p{
+        font-size: 14px;
+    }
+    
+    .mail i{
+        font-size: 20px;
+    }
+    .mail p{
+        font-size: 20px;
+    }
     /* footer section responsive */
 
         footer{
@@ -239,4 +256,11 @@
     footer hr{
         margin: 20px 0;
     }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    /* I think desktop view and tablet view are similar. And I want to Keep this Same. So that I don't Do this responsive fot tablet. IF you want to give me number , You can.   */
+    
 }
