@@ -8,7 +8,7 @@
     header {
         margin: 20px 10px;
     }
-
+    /* nav responsive */
     nav {
         justify-content: space-between;
         align-items: center;
@@ -33,7 +33,7 @@
     .menu {
         display: block;
     }
-
+    /* bannner responsive */
     .banner {
         background-size: auto;
         padding: 20px;
@@ -59,7 +59,31 @@
 
     .input-box input,
     button,
-    select {
+    .input-box select {
+        width: 100%;
+    }
+
+    /* popular section responsive */
+        main{
+            margin: 20px 10px;
+        }
+    .popular-tours{
+        flex-direction: column;
+        margin: 20px 0;
+        gap: 20px;
+    }
+    .popular-left-side h2{
+        font-size: 20px;
+    }
+    .popular-left-side p, 
+    .popular-left-side h6{
+        font-size: 14px;
+    }
+    .popular-left-side button{
+        width: 50%;
+        padding: 16px;
+    }
+    .popular-right-side img{
         width: 100%;
     }
 }
