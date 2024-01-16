@@ -145,9 +145,7 @@
     }
     .card-content p{
         font-size: 14px;
-        width: 250px;
-        height: 44px;
-        overflow: hidden;
+        
     }
     .card-content h4{
         font-size: 16px;
