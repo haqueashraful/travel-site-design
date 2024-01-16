@@ -148,7 +148,7 @@
   }
 
   .input-box input,
-    button,
+  button,
   .input-box select {
       flex: 1;
       width: calc(800px / 4);
@@ -169,12 +169,14 @@
 
   /* popular section styles */
 
-  .popular-tours{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 55px;
+  .popular-tours {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 55px;
+      margin: 50px 0;
   }
+
   .popular-left-side h2 {
       color: #131318;
       font-size: 40px;
@@ -188,18 +190,106 @@
       line-height: 26px;
       margin: 16px 0;
   }
+
   .popular-left-side ul {
-    margin: 24px 0 24px 17px;
+      margin: 24px 0 24px 17px;
   }
-  .popular-left-side ul li h6{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+
+  .popular-left-side ul li h6 {
+      color: rgba(19, 19, 24, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
   }
-  .popular-left-side ul li{
-    margin: 8px 0;
+
+  .popular-left-side ul li {
+      margin: 8px 0;
   }
-  .popular-left-side button{
-    margin-top: 16px;
+
+  .popular-left-side button {
+      margin-top: 16px;
+  }
+
+
+  /* chose dectionation section styles */
+
+  .chose-destination {
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .text-content h2 {
+      color: #131318;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+  }
+
+  .text-content p {
+      color: rgba(19, 19, 24, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+  }
+
+  .img-container {
+      display: grid;
+      grid-template-areas: "md md md md md md indi indi indi indi indi indi"
+          " sri sri sri sri na na na na na ksmir ksmir ksmir "
+          "bang bang bang bang bang band band band band band band band";
+      gap: 24px;
+  }
+
+  .img-box1 {
+      grid-area: md;
+      position: relative;
+
+  }
+
+  .img-box2 {
+      grid-area: indi;
+      position: relative;
+
+  }
+
+  .img-box3 {
+      grid-area: sri;
+      position: relative;
+
+  }
+
+  .img-box4 {
+      grid-area: na;
+      position: relative;
+
+  }
+
+  .img-box5 {
+      grid-area: ksmir;
+      position: relative;
+
+  }
+
+  .img-box6 {
+      grid-area: bang;
+      position: relative;
+
+  }
+
+  .img-box7 {
+      grid-area: band;
+      position: relative;
+  }
+  .img-container h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .img-container img {
+      width: 100%;
   }

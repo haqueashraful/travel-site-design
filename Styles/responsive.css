@@ -72,12 +72,15 @@
         margin: 20px 0;
         gap: 20px;
     }
-    .popular-left-side h2{
+    .popular-left-side h2,
+    .text-content h2{
         font-size: 20px;
     }
-    .popular-left-side p, 
+    .popular-left-side p,
+    .text-content p, 
     .popular-left-side h6{
         font-size: 14px;
+        margin: 16px 0;
     }
     .popular-left-side button{
         width: 50%;
@@ -85,5 +88,18 @@
     }
     .popular-right-side img{
         width: 100%;
+    }
+
+    /* chose dectination responsive */
+
+    .chose-dectination{
+        margin: 20px 0;
+    }
+    .img-container{
+       display: block;
+    }
+    .img-container img{
+        height: 175px;
+        margin-bottom: 16px;
     }
 }
