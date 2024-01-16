@@ -214,8 +214,8 @@
   /* chose dectionation section styles */
 
   .chose-destination {
-    margin: 50px 0;
-    text-align: center;
+      margin: 50px 0;
+      text-align: center;
   }
 
   .text-content h2 {
@@ -242,54 +242,224 @@
   .img-box1 {
       grid-area: md;
       position: relative;
-
   }
 
   .img-box2 {
       grid-area: indi;
       position: relative;
-
   }
 
   .img-box3 {
       grid-area: sri;
       position: relative;
-
   }
 
   .img-box4 {
       grid-area: na;
       position: relative;
-
   }
 
   .img-box5 {
       grid-area: ksmir;
       position: relative;
-
   }
 
   .img-box6 {
       grid-area: bang;
       position: relative;
-
   }
 
   .img-box7 {
       grid-area: band;
       position: relative;
   }
-  .img-container h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 800;
+
+  .img-container h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFF;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 800;
   }
 
   .img-container img {
       width: 100%;
+  }
+
+
+  /* why us section */
+
+  .why-us {
+      text-align: center;
+  }
+
+  .text-content p {
+      padding: 16px 0;
+  }
+
+  /* why us section styles */
+
+  .why-us {
+      text-align: center;
+      margin: 50px 0;
+  }
+
+  .text-content h2 {
+      color: #131318;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+  }
+
+  .text-content p {
+      margin-bottom: 24px 0 32px 0;
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+  .card-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+  }
+
+  .card {
+      border-radius: 16px;
+      border: 1px solid rgba(251, 181, 99, 0.20);
+      text-align: left;
+      width: calc((100% - 24px) / 2);
+      margin: 0 auto;
+      padding: 32px;
+  }
+
+  .card h3 {
+      margin: 32px 0 16px 0;
+      color: #131318;
+      font-size: 24px;
+      font-weight: 800;
+  }
+
+  .card p {
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+
+  /* deals and discount section styles */
+
+  .deal-discount {
+      margin: 50px 0;
+      width: 100%;
+  }
+
+  .text-content h2 {
+      color: #131318;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+  }
+
+  .text-content p {
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 24px 265px 48px 265px;
+  }
+  
+  .card1,
+  .card3 {
+      border-radius: 16px;
+      background: url("/Images/Group-39.png"), lightgray 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      position: relative;
+      margin: 24px 0;
+      background-position: center;
+  }
+  .card2{
+    border-radius: 16px;
+    background: url("/Images/Group-40.png"), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+  }
+  .card-nav {
+      display: flex;
+      gap: 24px;
+  }
+
+  .card-nav div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+  }
+
+  .card-nav h6 {
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+  }
+
+  .card-content {
+      border-radius: 16px;
+      border: 2px solid #FFF;
+      background: rgba(255, 255, 255, 0.80);
+      backdrop-filter: blur(2.5px);
+      width: 579px;
+      padding: 50px;
+      position: absolute;
+      top: 55px;
+      right: 55px;
+      bottom: 55px;
+      left: auto;
+      width: 50%;
+  }
+.card2 > .card-content{
+    position: absolute;
+      top: 55px;
+      right: auto;
+      bottom: 55px;
+      left: 55px;
+}
+  .card-content h2 {
+      color: #131318;
+      font-size: 24px;
+      font-weight: 800;
+      margin-top: 16px;
+      margin-bottom: 24px;
+  }
+
+  .card-content p {
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+  .card-content h4 {
+      color: #FF5400;
+      font-family: Mulish;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 16px;
+      margin-bottom: 24px;
+  }
+  .card-content button{
+    width: 150px;
   }

@@ -102,4 +102,46 @@
         height: 175px;
         margin-bottom: 16px;
     }
+
+    /* why us */
+    .card-section{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+
+    /* deals and discount section  */
+
+    .card-nav{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .card2 > .card-content,
+    .card-content{
+        padding: 16px;
+        width: 80%;
+        margin: 0 auto;
+        top: auto;
+        bottom: 16px;
+        right: 16px;
+        left: 16px;
+    }
+    .card-content h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .card-content p{
+        font-size: 14px;
+        width: 250px;
+        height: 44px;
+        overflow: hidden;
+    }
+    .card-content h4{
+        font-size: 16px;
+        margin: 10px 0;
+    }
 }
