@@ -375,7 +375,7 @@
       line-height: 26px;
       margin: 24px 265px 48px 265px;
   }
-  
+
   .card1,
   .card3 {
       border-radius: 16px;
@@ -387,15 +387,17 @@
       margin: 24px 0;
       background-position: center;
   }
-  .card2{
-    border-radius: 16px;
-    background: url("../Images/Group-40.png"), lightgray 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
+
+  .card2 {
+      border-radius: 16px;
+      background: url("../Images/Group-40.png"), lightgray 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      position: relative;
   }
+
   .card-nav {
       display: flex;
       gap: 24px;
@@ -428,13 +430,15 @@
       left: auto;
       width: 50%;
   }
-.card2 > .card-content{
-    position: absolute;
+
+  .card2>.card-content {
+      position: absolute;
       top: 55px;
       right: auto;
       bottom: 55px;
       left: 55px;
-}
+  }
+
   .card-content h2 {
       color: #131318;
       font-size: 24px;
@@ -460,6 +464,57 @@
       margin-top: 16px;
       margin-bottom: 24px;
   }
-  .card-content button{
-    width: 150px;
+
+  .card-content button {
+      width: 150px;
+  }
+
+  .deal-btn {
+      text-align: center;
+  }
+
+
+
+  /* perfect place */
+
+  .perfect-place {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      gap: 28px;
+  }
+
+  .perfect-place-content {
+      width: calc((100% - 28px) / 2);
+  }
+
+  .perfect-place-content h2 {
+      color: #131318;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 60px;
+  }
+
+  .perfect-place-content p {
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 24px 0;
+  }
+  .perfect-place-content button{
+    margin-top: 24px;
+  }
+  .perfect-place-content ul>li {
+      color: #131318;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 26px;
+      margin-left: 22px;
+      margin-top: 8px;
+  }
+
+  .perfect-place-img {
+    border-radius: 16px;
+      width: calc((100% - 28px) / 2);
   }
