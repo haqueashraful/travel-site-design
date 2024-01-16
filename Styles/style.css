@@ -1,0 +1,160 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Mulish', sans-serif;
+  }
+
+  /* shared item style */
+
+  .btn-prime {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      background: #FF5400;
+  }
+
+  body {
+      min-width: 1440px;
+  }
+
+  /* header item style */
+
+  header {
+      margin: 50px 130px;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 45px;
+  }
+  .left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .left-side img{
+    width: 48px;
+    height: 56px;
+  }
+  .left-side h2 {
+      color: #131318;
+      font-size: 36px;
+      font-weight: 800;
+  }
+
+
+  .right-side ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 44px;
+  }
+
+  .right-side ul li {
+      list-style: none;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+  }
+
+  .right-side a {
+      text-decoration: none;
+      color: #424247;
+  }
+
+  /* hamburger item for responsive */
+  /* .hamburg, */
+  .menu,
+  .close {
+      display: none;
+      cursor: pointer;
+      padding: 20px;
+      font-size: 30px;
+  }
+
+  .hamburg .nav-item {
+      display: none;
+  }
+
+  .hamburg ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+  }
+
+  .hamburg ul li {
+      list-style: none;
+      text-align: left;
+      font-size: 18px;
+      font-weight: 400;
+  }
+
+  .hamburg a {
+      text-decoration: none;
+      color: #424247;
+  }
+
+  /* banner section style */
+
+  .banner {
+      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/banner-background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      padding: 105px 180px;
+  }
+
+  .banner h1 {
+      color: #FFF;
+      font-size: 64px;
+      font-weight: 800;
+      text-align: center;
+  }
+
+  .banner p {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 24px 0 48px 0;
+  }
+
+
+  .input-box {
+      display: flex;
+      /* align-items: flex-start; */
+      gap: 24px;
+      padding: 16px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);
+      min-width: 800px;
+  }
+
+  .input-box input,
+  button,
+  select {
+      flex: 1;
+      width: calc(800px / 4);
+      height: 52px;
+      border-radius: 8px;
+      background: #FFF;
+      padding: 16px;
+      color: rgba(19, 19, 24, 0.50);
+      font-size: 16px;
+      font-weight: 400;
+      border: none;
+  }
